@@ -6,7 +6,7 @@ import 'package:my_doctor/core/widgets/app_text_form_field.dart';
 import 'package:my_doctor/features/login/ui/widgets/dont_have_account.dart';
 import 'package:my_doctor/features/login/ui/widgets/terms_and_conditions.dart';
 
-import '../../../core/theming/styles.dart';
+import '../../../../core/theming/styles.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -29,16 +29,17 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                verticalSpace(30),
                 Text(
                   "Welcome Back",
                   style: TextStyles.font32BlueBold,
                 ),
-                verticalSpace(8),
+                verticalSpace(10),
                 Text(
                   "We're excited to have you back, can't wait to see what you've been up to since you last logged in.",
                   style: TextStyles.font14GrayRegular,
                 ),
-                verticalSpace(36),
+                verticalSpace(60),
                 Form(
                   key: formKey,
                   child: Column(

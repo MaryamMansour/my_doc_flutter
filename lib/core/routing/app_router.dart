@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_doctor/core/routing/routes.dart';
-import 'package:my_doctor/features/login/ui/login_screen.dart';
+import 'package:my_doctor/features/login/ui/screens/login_screen.dart';
 import 'package:my_doctor/features/on_boarding/onboarding_screen.dart';
 
 class AppRouter {
